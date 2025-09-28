@@ -22,3 +22,4 @@ Put all files (`agent.py`, `viewer.py`, `requirements.txt`) in a project folder.
 python -m venv .venv
 source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+python agent.py --demo --log-level INFO
